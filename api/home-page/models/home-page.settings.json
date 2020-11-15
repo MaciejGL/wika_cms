@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description1": {
+      "type": "richtext"
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "richtext"
+    },
+    "description3": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "paintings",
+  "info": {
+    "name": "Paintings"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "subheading": {
+      "type": "string",
+      "required": true
+    },
+    "description1": {
+      "type": "string"
+    }
+  }
+}

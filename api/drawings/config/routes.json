@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/drawings",
+      "handler": "drawings.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/drawings",
+      "handler": "drawings.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/drawings",
+      "handler": "drawings.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
