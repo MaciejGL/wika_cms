@@ -1,3 +1,14 @@
-# Strapi application
+# Headless CMS for a Blog
+ Headless CMS to create content for a blog/portfolio. All Data is stored in MongoDB
+ 
+## Goal of the project:
+Create easy to use CMS for frontend app.
 
-A quick description of your strapi application
+## Lessons Learned:
+* How to use Headless CMS with connection to DB.
+* Serverless
+
+## Stack
+* Node
+* Strapi
+* MongoDB
