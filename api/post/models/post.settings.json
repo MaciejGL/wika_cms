@@ -14,10 +14,13 @@
     "title": {
       "type": "string",
       "required": true,
-      "maxLength": 60
+      "maxLength": 60,
+      "minLength": 3
     },
     "description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true,
+      "minLength": 10
     },
     "price": {
       "type": "decimal"
@@ -36,8 +39,8 @@
       "required": true
     },
     "category": {
-      "via": "posts",
-      "model": "category"
+      "model": "category",
+      "via": "posts"
     }
   }
 }
