@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "services",
   "info": {
-    "name": "Services"
+    "name": "Services",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -17,14 +18,10 @@
     "subheading": {
       "type": "text"
     },
-    "description1": {
-      "type": "text"
-    },
-    "description2": {
-      "type": "text"
-    },
-    "description3": {
-      "type": "text"
+    "description": {
+      "type": "richtext",
+      "minLength": 5,
+      "required": true
     }
   }
 }
