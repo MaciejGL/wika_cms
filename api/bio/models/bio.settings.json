@@ -17,15 +17,6 @@
     "subheading": {
       "type": "string"
     },
-    "description1": {
-      "type": "text"
-    },
-    "description2": {
-      "type": "string"
-    },
-    "description3": {
-      "type": "string"
-    },
     "profilepicture": {
       "model": "file",
       "via": "related",
@@ -33,6 +24,11 @@
         "images"
       ],
       "plugin": "upload",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "minLength": 5,
       "required": true
     }
   }

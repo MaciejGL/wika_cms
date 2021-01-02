@@ -14,17 +14,11 @@
     "heading": {
       "type": "string"
     },
-    "description1": {
+    "description": {
       "type": "richtext"
     },
     "subheading": {
       "type": "text"
-    },
-    "description2": {
-      "type": "richtext"
-    },
-    "description3": {
-      "type": "richtext"
     }
   }
 }

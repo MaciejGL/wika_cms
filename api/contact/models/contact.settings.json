@@ -18,14 +18,10 @@
     "subheading": {
       "type": "string"
     },
-    "description1": {
-      "type": "text"
-    },
-    "description2": {
-      "type": "text"
-    },
-    "description3": {
-      "type": "text"
+    "description": {
+      "type": "richtext",
+      "required": true,
+      "minLength": 5
     }
   }
 }
