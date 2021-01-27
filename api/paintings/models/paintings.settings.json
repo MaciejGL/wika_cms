@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "paintings",
+  "collectionName": "paintingsContent",
   "info": {
-    "name": "Paintings",
+    "name": "paintings",
     "description": ""
   },
   "options": {
@@ -11,18 +11,16 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "heading": {
-      "type": "string",
-      "required": true
+    "title": {
+      "type": "string"
     },
-    "subheading": {
-      "type": "string",
-      "required": true
+    "subtitle": {
+      "type": "text"
     },
     "description": {
-      "type": "richtext",
-      "required": true,
-      "minLength": 5
+      "type": "component",
+      "repeatable": true,
+      "component": "description.paragraph"
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "drawings",
+  "collectionName": "drawingsContent",
   "info": {
     "name": "Drawings",
     "description": ""
@@ -13,16 +13,17 @@
   "attributes": {
     "heading": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "subheading": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "description": {
-      "type": "richtext",
-      "required": true,
-      "minLength": 5
+      "type": "component",
+      "repeatable": true,
+      "component": "description.paragraph",
+      "required": false
     }
   }
 }

@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/home-page",
-      "handler": "home-page.find",
+      "path": "/homepage",
+      "handler": "homepage.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/home-page",
-      "handler": "home-page.update",
+      "path": "/homepage",
+      "handler": "homepage.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/home-page",
-      "handler": "home-page.delete",
+      "path": "/homepage",
+      "handler": "homepage.delete",
       "config": {
         "policies": []
       }

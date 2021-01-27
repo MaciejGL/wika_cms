@@ -1,9 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "servicesContent",
+  "collectionName": "homepages",
   "info": {
-    "name": "Services",
-    "description": ""
+    "name": "Homepage"
   },
   "options": {
     "increments": true,
@@ -11,11 +10,11 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "heading": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "subheading": {
+    "subtitle": {
       "type": "text"
     },
     "description": {
