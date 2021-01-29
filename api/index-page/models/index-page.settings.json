@@ -1,8 +1,9 @@
 {
   "kind": "singleType",
-  "collectionName": "homepages",
+  "collectionName": "index_pages",
   "info": {
-    "name": "Homepage"
+    "name": "IndexPage",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -11,8 +12,7 @@
   },
   "attributes": {
     "title": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "subtitle": {
       "type": "text"
