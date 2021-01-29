@@ -50,6 +50,10 @@
     "orderToDisplayOnHomepage": {
       "type": "integer",
       "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
     }
   }
 }
