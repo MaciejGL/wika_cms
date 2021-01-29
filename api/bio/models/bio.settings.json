@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "bios",
+  "collectionName": "biosContent",
   "info": {
     "name": "Bio",
     "description": ""
@@ -11,10 +11,10 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "heading": {
+    "title": {
       "type": "string"
     },
-    "subheading": {
+    "subtitle": {
       "type": "string"
     },
     "profilepicture": {
@@ -27,8 +27,9 @@
       "required": true
     },
     "description": {
-      "type": "richtext",
-      "minLength": 5,
+      "type": "component",
+      "repeatable": true,
+      "component": "description.paragraph",
       "required": true
     }
   }
