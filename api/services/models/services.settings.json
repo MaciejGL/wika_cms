@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "services",
+  "collectionName": "servicesContent",
   "info": {
     "name": "Services",
     "description": ""
@@ -19,9 +19,9 @@
       "type": "text"
     },
     "description": {
-      "type": "richtext",
-      "minLength": 5,
-      "required": true
+      "type": "component",
+      "repeatable": true,
+      "component": "description.paragraph"
     }
   }
 }

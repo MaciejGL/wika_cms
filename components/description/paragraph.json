@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_description_paragraphs",
+  "info": {
+    "name": "paragraph",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

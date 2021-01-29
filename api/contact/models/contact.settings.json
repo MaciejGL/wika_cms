@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "contacts",
+  "collectionName": "contactsContent",
   "info": {
     "name": "Contact",
     "description": ""
@@ -19,9 +19,10 @@
       "type": "string"
     },
     "description": {
-      "type": "richtext",
-      "required": true,
-      "minLength": 5
+      "type": "component",
+      "repeatable": true,
+      "component": "description.paragraph",
+      "required": false
     }
   }
 }

@@ -41,6 +41,15 @@
     "category": {
       "model": "category",
       "via": "posts"
+    },
+    "showOnHomepage": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "orderToDisplayOnHomepage": {
+      "type": "integer",
+      "unique": true
     }
   }
 }
