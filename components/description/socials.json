@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_description_socials",
+  "info": {
+    "name": "socials",
+    "icon": "users",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "socialLink": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
