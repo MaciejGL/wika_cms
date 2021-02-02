@@ -23,6 +23,11 @@
       "repeatable": true,
       "component": "description.paragraph",
       "required": false
+    },
+    "socials": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.socials"
     }
   }
 }
