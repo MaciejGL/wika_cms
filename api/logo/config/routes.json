@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/services",
-      "handler": "services.find",
+      "path": "/logo",
+      "handler": "logo.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/services",
-      "handler": "services.update",
+      "path": "/logo",
+      "handler": "logo.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/services",
-      "handler": "services.delete",
+      "path": "/logo",
+      "handler": "logo.delete",
       "config": {
         "policies": []
       }
